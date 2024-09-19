@@ -1,0 +1,85 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescriptreact": "tsx"
+  },
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "editor.colorDecorators": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "editor.fontSize": 30,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "editor.fontWeight": "600",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 35,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+  "typescript.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "editor.lineNumbers": "relative",
+  "breadcrumbs.showNumbers": false,
+  // The number of spaces in a tab.
+  "editor.tabSize": 1,
+  // Specifies workbench icon theme.
+  "workbench.iconTheme": "eq-material-theme-icons",
+  // Format a file on save.
+  "editor.formatOnSave": true,
+  // Set Prettier default as formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.autoClosingTags": true,
+    "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+    "typescript.suggest.enabled": true,
+    "typescript.preferences.quoteStyle": "auto"
+  },
+  // Controls how the editor should render whitespace characters.
+  "editor.renderWhitespace": "boundary",
+  // Quickly toggle between hiding and showing folders and files. (For Peep)
+  // To quickly hide/show files execute the Peep Toggle in Command Palette.
+  "files.exclude": {
+    ".*": false,
+    "ios/": false,
+    "*.lo*": false,
+    "LICENSE": false,
+    "android/": false,
+    "__tests__": false,
+    "node_modules/": false
+  },
+  "git-autoconfig.configList": [
+    {
+      "user.email": "empregos97@gmail.com",
+      "user.name": "97revenge"
+    }
+  ],
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "hidden",
+  "editor.minimap.autohide": true,
+  "editor.minimap.size": "fit",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 3,
+  "editor.minimap.maxColumn": 220,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+  "python.defaultInterpreterPath": "C:\\Users\\mathe\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+  "workbench.editorAssociations": {
+    "*.py": "default"
+  }
+}
