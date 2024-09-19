@@ -1,88 +1,66 @@
-# wee-see
+# Wee-See
 
-## a web app that maintains a feed where brands and companies can announce marketing campaign plans, such as posts and short videos.
+## Overview
 
-## where the content creator could have the option to accept this campaign, follow the steps and send it to be posted along with that product x (product id, product link).
+Wee-See is a web app designed to facilitate collaboration between brands/companies and content creators. It maintains a dynamic feed where companies can announce marketing campaign plans, such as posts and short videos, for their products. Content creators have the option to accept campaigns, follow the necessary steps, and submit their work for review. Once approved, their content is posted along with the product details (product ID, product link).
 
-## web by web
+## Vision
 
-```text
+Imagine a feed where people share messages and repost content, similar to platforms like Threads or Twitter/X, but focused on partnerships between content creators and companies through TikTok Shop products.
 
-`Pensa em um feed onde pessoas compartilham mensagems e republicam mensagens muito parecido com o threats ou o twitter/x, mas focado em parcerias entre criadores de conteudo e empresas produtos do tik tok shop`
+Wee-See connects content creators with TikTok Shop products, providing a platform where creators can:
 
+- Submit test videos or advertisements.
+- Await company approval.
+- Upon approval, the payment is deposited in the creator's wallet, and the content is posted or scheduled by the company.
 
-`uma plataforma que conecta criadores de conteúdos a produtos do tik tok shop. Um feed de publicidades onde criadores preenchem formularios com videos testes, videos da propaganda, e aguardam a aprovação da empresa. com a empresa aprovando o que recebeu do criador de conteudo. o valor é pago na wallet do  criador , e possivelmente já postado ou agendado post para a empresa.`
+## Workflow
 
+The user flow is similar to a pull request on GitHub, where a company evaluates the content proposed by a creator. The company can approve or deny the submission:
 
-`podemos pegar todo o user flow de um pull request no github , onde um usuario precisaria avaliar o conteudo que foi proposto. O avaliador pode negar este pull request e tambem aprovar. A partir daí pensamos assim :
-uma empresa precisa de uma campanha rapida e facil sobre um produto no tik tok shop.
-a empresa posta um anuncio no wee see dizendo que quer um anuncio singelo e dinamico sobre o seu produto, baseado em 3 etapas : 2 textos cativantes, e um video do criador de conteudo dizendo isso.
-o criador de conteudo aceita aquela campanha, mas isso nao significa que ele foi aprovado.
-o criador de conteudo cumpre as 3 etapas , e envia para a empresa a sua resposta.
-a empresa avalia sua proposta dentro da plataforma
-a empresa baixa todo o  conteúdo daquela campanha porem ela tambem pode postar automaticamente pela API do tik tok.
-o valor negociado entre os ambos vai para a wallet do criador de conteúdo.
+1. A company posts a campaign request for a quick and dynamic advertisement on a product in TikTok Shop.
+2. The content creator accepts the campaign but isn't immediately approved.
+3. The creator completes the required steps (e.g., two engaging texts and a video) and submits the content.
+4. The company evaluates the submission and can download the content or automatically post it via the TikTok API.
+5. The agreed payment is transferred to the content creator’s wallet upon approval.
 
-`
+## Market Need
 
-`NESCESSIDADE DO MERCADO:
-Um dos tópicos que surgiram foi o desafio de gerenciar a comunicação entre vendedor e criador, com vários criadores destacando áreas para melhoria. Existem simplesmente tantas oportunidades que "tentar pesquisar minhas mensagens no TikTok [Shop] é impossível", compartilhou um criador. Outro criador admitiu ter mudado sua abordagem e começado com a descoberta de produtos, dizendo: "Não leio mais minhas mensagens [de criador]". Essas admissões sinceras ressaltam uma oportunidade para os desenvolvedores ajudarem construindo soluções que agilizam as comunicações para todas as partes.
+Many content creators have expressed frustration in managing communication with sellers. Creators noted the difficulty in searching messages on TikTok Shop and stressed the importance of discovering products that align with their specific audience demographics. Some creators have even shifted their focus entirely to product discovery.
 
-escoberta de produtos surgiu como outra área de oportunidade. Os criadores enfatizaram a importância de encontrar produtos que ressoem com seus dados demográficos de público específicos. Um participante observou: "meu público é mais de nicho, então geralmente procuro produtos que ressoem com mulheres na faixa dos quarenta e cinquenta anos". Isso destacou a chance para os desenvolvedores encontrarem melhores maneiras de compartilhar que o produto de um vendedor se alinha com o público de um criador.
+Opportunities exist for developers to create solutions that streamline communication between sellers and creators, helping both sides find relevant products and manage long-term partnerships. These tools are seen as essential for sustainable success on platforms like TikTok Shop.
 
-A mesa redonda também revelou entusiasmo sobre o potencial de parcerias de longo prazo entre criadores e marcas. Os criadores expressaram um desejo por ferramentas que pudessem ajudá-los a construir e gerenciar esses relacionamentos de forma mais eficaz, vendo-os como a chave para o sucesso sustentável na plataforma.
+Read more on this opportunity: [TikTok Shop Affiliate APIs Launch Developer Opportunity](https://developers.tiktok.com/blog/2024-tiktok-shop-affiliate-apis-launch-developer-opportunity)
 
-Conforme as discussões foram concluídas, tanto desenvolvedores quanto criadores saíram se sentindo energizados sobre o futuro. Brent, da Social Snowball, resumiu o sentimento, observando: "Como desenvolvedor, sou realmente grato por todo o feedback aberto que ouvi. Isso é incrível." Está claro que há uma riqueza de oportunidades para soluções inovadoras que podem abordar esses desafios e levar o ecossistema de afiliados da TikTok Shop a novos patamares.
+---
 
-LINK:https://developers.tiktok.com/blog/2024-tiktok-shop-affiliate-apis-launch-developer-opportunity
-`
+## Tech Stack
 
+### High Importance
+- **Zod**
+- **Auth.js/NextAuth v5**
+- **TikTok API** (Login Kit & Display)
+- **Prisma**
+- **Stripe**
+- **JWT**
 
+### Mid Importance
+- **SWR**
+- **Nemo**
 
-```
+### Less Importance
+- **Zigma** (extreme potential)
+- **v0.dev**
+- **shadcn-ui**
+- **magic-ui**
+- **framer-motion**
 
-### tech stack
+---
 
-- [high importance]
+## Roadmap
 
-##### zod
-
-##### auth.js/nextAuthV5
-
-##### Tik Tok API (Login Kit & Display)
-
-#### prisma
-
-#### stripe
-
-#### jwt
-
-- [mid importancia]
-
-#### swr
-
-#### nemo
-
-- [less importance]
-
-#### zigma (extreme potential)
-
-#### v0.dev
-
-#### shadcn-ui
-
-#### magic-ui
-
-#### framer-motion
-
-####
-
-rodmap
-
--[x] application setup
-
-- [] middleware implementation (sign/login, )
-- [] oAuth with auth.js (tik tok provider)
-- [] sandbox tests
-
+- [x] Application setup
+- [] Middleware implementation (Sign up/Login)
+- [] OAuth with Auth.js (TikTok provider)
+- [] Sandbox tests
 - [] API production deployment
