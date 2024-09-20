@@ -69,6 +69,7 @@ Read more on this opportunity: [TikTok Shop Affiliate APIs Launch Developer Oppo
 ### - [] Middleware implementation (auth routes)
 
 ### - [] Oauth with Auth.js (tik tok provider)
+	#### - [] [NEMO implementation](https://nemo.rescale.build/)
 
 ### - [] tik tok API sandbox tests
 
