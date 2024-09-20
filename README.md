@@ -66,10 +66,12 @@ Read more on this opportunity: [TikTok Shop Affiliate APIs Launch Developer Oppo
 
 ### - [] Application Setup
 
+### - [] definition of db entities
+
 ### - [] Middleware implementation (auth routes)
 
 ### - [] Oauth with Auth.js (tik tok provider)
-	#### - [] [NEMO implementation](https://nemo.rescale.build/)
+	### - [] [NEMO implementation](https://nemo.rescale.build/)
 
 ### - [] tik tok API sandbox tests
 
