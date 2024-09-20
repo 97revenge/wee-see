@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-	<img src="" >
+	<a href="https://wakatime.com/badge/github/97revenge/wee-see"><img src="https://wakatime.com/badge/github/97revenge/wee-see.svg" alt="wakatime"></a>
 	<img src="https://img.shields.io/github/last-commit/97revenge/wee-see?style=plastic&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/97revenge/wee-see?style=plastic&color=0080ff" alt="repo-top-language">
 	<img src="" alt="">
